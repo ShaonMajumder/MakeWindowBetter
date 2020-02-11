@@ -17,33 +17,65 @@ import subprocess
 import pprint
 import gummybear
 
+def execute_shell(cmd):
+    popen = subprocess.Popen(cmd, stdout=subprocess.PIPE, universal_newlines=True)
+    for stdout_line in iter(popen.stdout.readline, ""):
+        yield stdout_line 
+    popen.stdout.close()
+    return_code = popen.wait()
+    if return_code:
+        raise subprocess.CalledProcessError(return_code, cmd)
+        
+def execute_command(command):
+	print("IN <", command)
+	process = subprocess.Popen(command, stdin = subprocess.PIPE, stdout=subprocess.PIPE)
+	output, error = process.communicate()
+	output = output.decode("utf-8")
+	return output
+def Oldwinexecute_command(command):
+	print("IN <", command)
+	process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
+	output, error = process.communicate()
+	output = output.decode("utf-8")
+	return output
 
-def read_configuration_ini(filename):
-	# set comment_prefixes to a string which you will not use in the config file
-	#config = configparser.ConfigParser()
-	config = configdom()
-	config.read_file(filename)
-	#ConfigParser(comment_prefixes=';', allow_no_value=True)
-	#config.read_file(codecs.open(filename, "r", "utf8"))
-	return config
 
-def read_configuration_inip(filename):
-	# set comment_prefixes to a string which you will not use in the config file
-	config = configparser.ConfigParser()
-	#config = configdom()
-	#ConfigParser(comment_prefixes=';', allow_no_value=True)
-	config.read_file(codecs.open(filename, "r", "utf8"))
-	#config.read_file(filename)
-	return config
 
-def read_safecase_configuration_ini(filename):
-	config = CaseConfigParser()
-	config.read_file(codecs.open(filename, "r", "utf8"))
-	return config
 
-def write_configuration_ini(configs_par,filename, f_mode='w'):
-	with open(filename, f_mode) as configfile:    # save
-		configs_par.write(configfile)
+def getLoc_syspath(search_object):
+	if os.path.exists(search_object):
+		return search_object
+	else:
+		for path in sys.path:
+			search_path = os.path.join(path,search_object)
+			if os.path.exists(search_path):
+				return search_path
+		return False
+	
+def change_dic_key(dic,old_key,new_key):
+	dic[new_key] = dic.pop(old_key)
+	return dic
+
+def randomString(stringLength=10):
+    """Generate a random string of fixed length """
+    letters = string.ascii_lowercase
+    for c in range(10):
+        letters = letters + str(c)
+
+    return ''.join(random.choice(letters) for i in range(stringLength))
+
+def read_json(filename):
+	with codecs.open(filename, "r", encoding="utf-8") as fp:
+		data = json.load(fp)
+	#Print Formatted Dictionary
+	#print(json.dumps(data, indent=4))
+	return data
+
+def write_json(obj,filename):
+	with codecs.open(filename, "w", encoding='utf-8') as fp:
+	    json.dump(obj, fp, indent=1)
+
+
 
 
 class configdom:
@@ -56,10 +88,10 @@ class configdom:
 	def __getitem__(self, item):
 		return self.configObj[item]
 
-	def read_file(self,config_filename,encoding="utf8"):
-		self.config_filename = config_filename
-		self.comment_map = self.save_comments(config_filename)
-		return self.configObj.read_file(codecs.open(config_filename, "r", encoding))
+	def read_file(self,config_file):
+		self.config_filename = config_file
+		self.comment_map = self.save_comments(config_file)
+		return self.configObj.read_file(codecs.open(config_file, "r", "utf8"))
 
 	def options(self,section):
 		return self.configObj.options(section)
@@ -100,52 +132,32 @@ class configdom:
 	    with open(config_file, 'w') as file:
 	        file.write(''.join(lines))
 
+def read_configuration_ini(filename):
+	# set comment_prefixes to a string which you will not use in the config file
+	#config = configparser.ConfigParser()
+	config = configdom()
+	config.read_file(filename)
+	#ConfigParser(comment_prefixes=';', allow_no_value=True)
+	#config.read_file(codecs.open(filename, "r", "utf8"))
+	return config
 
+def read_configuration_inip(filename):
+	# set comment_prefixes to a string which you will not use in the config file
+	config = configparser.ConfigParser()
+	#config = configdom()
+	#ConfigParser(comment_prefixes=';', allow_no_value=True)
+	config.read_file(codecs.open(filename, "r", "utf8"))
+	#config.read_file(filename)
+	return config
 
+def read_safecase_configuration_ini(filename):
+	config = CaseConfigParser()
+	config.read_file(codecs.open(filename, "r", "utf8"))
+	return config
 
-def execute_command(command):
-	print("IN <", command)
-	process = subprocess.Popen(command, stdin = subprocess.PIPE, stdout=subprocess.PIPE)
-	output, error = process.communicate()
-	output = output.decode("utf-8")
-	return output
-	
-def getLoc_syspath(search_object):
-	if os.path.exists(search_object):
-		return search_object
-	else:
-		for path in sys.path:
-			search_path = os.path.join(path,search_object)
-			if os.path.exists(search_path):
-				return search_path
-		return False
-	
-def change_dic_key(dic,old_key,new_key):
-	dic[new_key] = dic.pop(old_key)
-	return dic
-
-def randomString(stringLength=10):
-    """Generate a random string of fixed length """
-    letters = string.ascii_lowercase
-    for c in range(10):
-        letters = letters + str(c)
-
-    return ''.join(random.choice(letters) for i in range(stringLength))
-
-def read_json(filename):
-	with codecs.open(filename, "r", encoding="utf-8") as fp:
-		data = json.load(fp)
-	#Print Formatted Dictionary
-	#print(json.dumps(data, indent=4))
-	return data
-
-def write_json(obj,filename):
-	with codecs.open(filename, "w", encoding='utf-8') as fp:
-	    json.dump(obj, fp, indent=1)
-
-
-
-
+def write_configuration_ini(configs_par,filename, f_mode='w'):
+	with open(filename, f_mode) as configfile:    # save
+		configs_par.write(configfile)
 
 def read_file(filename):
 	with codecs.open(filename, "r", encoding="utf-8") as file_reader:
