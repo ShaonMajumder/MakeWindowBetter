@@ -1,0 +1,24 @@
+Done: Windows Worked
+
+Program Features:
+Debloater
+1) Removing_Bloatware
+2) Preventing Windows Update
+3) Guarding Privacy Settings
+4) Removing Startup Programs
+5) Removing Temps
+6) Removing Schedulers
+
+1) Primary Target: Killing The tasks
+2) Sorting
+3) Listing Tasks
+4)
+5)
+6)
+
+Import Installer Requirement generator
+open py files
+list import lines
+if it is not standard library then save it to requirements
+if a pacakage is not installed download package
+Check if a package is not in pypi or standard library, then save it the error log, in error.log

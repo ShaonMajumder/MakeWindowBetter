@@ -1,4 +1,6 @@
 pywin32
 pillow
 wget
+psutil
+wmi
 winshell
