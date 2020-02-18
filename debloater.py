@@ -103,6 +103,8 @@ def main():
 	print(" Step4 : Protect Privacy Settings. When OOSU10.exe opened, read carefully and check to disable settings.")
 	safe_privacy_settings()
 
+	print(" Step : Clean Temp,Delete Temp folder")
+	
 if __name__ == '__main__':
 	filename = 'config.ini'
 	config = read_configuration_ini(filename)
