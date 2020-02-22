@@ -1,0 +1,29 @@
+AMD Catalyst Install Manager | Catalyst Control Center Next Localization TH | Catalyst Control Center Next Localization CHS | Catalyst Control Center Next Localization NO | Catalyst Control Center Next Localization NL | Catalyst Control Center Next Localization CS | Catalyst Control Center Next Localization JA | Catalyst Control Center Next Localization KO | Catalyst Control Center Next Localization FR | Catalyst Control Center Next Localization TR | Catalyst Control Center Next Localization PL | Catalyst Control Center Next Localization DE | Catalyst Control Center Next Localization HU | Catalyst Control Center Next Localization EL | Catalyst Control Center Next Localization FI | Catalyst Control Center Next Localization ES | Catalyst Control Center Next Localization DA | Catalyst Control Center Next Localization IT | Catalyst Control Center Next Localization BR | Catalyst Control Center Next Localization RU | Catalyst Control Center Next Localization SV | Catalyst Control Center Next Localization CHT | 
+AMD Settings | AMD Start Now
+
+
+
+Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030 | Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030
+Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.50727 | Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.50727
+Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.50727 | Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.50727
+Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005 | Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005 | Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Microsoft Visual C++ 2015 x86 Minimum Runtime - 14.0.24123 | Microsoft Visual C++ 2015 x86 Additional Runtime - 14.0.24123
+Microsoft Visual C++ 2017 x64 Minimum Runtime - 14.15.26706 | Microsoft Visual C++ 2017 x64 Additional Runtime - 14.15.26706
+
+
+
+Python 3.8.1 Executables (32-bit) | Python 3.8.1 Development Libraries (32-bit) | Python 3.8.1 Standard Library (32-bit) | Python 3.8.1 pip Bootstrap (32-bit) | Python 3.8.1 Core Interpreter (32-bit) | Python 3.8.1 Utility Scripts (32-bit) | Python 3.8.1 Test Suite (32-bit) | Python 3.8.1 Tcl/Tk Support (32-bit) | Python 3.8.1 Add to Path (32-bit) | Python 3.8.1 Documentation (32-bit)
+Python Launcher
+
+
+
+Dolby Digital Plus Home Theater
+
+Google Update Helper
+
+
+Update for Windows 10 for x64-based Systems (KB4023057) | UpdateAssistant
+Update for Windows 10 for x64-based Systems (KB4480730)
+
+Xtreme Download Manager 2018

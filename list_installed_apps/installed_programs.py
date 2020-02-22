@@ -1,3 +1,4 @@
+# check why all programs is not listed
 import wmi
 w = wmi.WMI()
 for p in w.Win32_Product():

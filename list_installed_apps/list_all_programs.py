@@ -1,4 +1,6 @@
+#covered_all_programs
 import winreg
+import shaonutil
 
 def foo(hive, flag):
     aReg = winreg.ConnectRegistry(None, hive)
@@ -32,6 +34,11 @@ def foo(hive, flag):
 
 software_list = foo(winreg.HKEY_LOCAL_MACHINE, winreg.KEY_WOW64_32KEY) + foo(winreg.HKEY_LOCAL_MACHINE, winreg.KEY_WOW64_64KEY) + foo(winreg.HKEY_CURRENT_USER, 0)
 
+lines = []
 for software in software_list:
+    lines.append('Name=%s, Version=%s, Publisher=%s' % (software['name'], software['version'], software['publisher']))
     print('Name=%s, Version=%s, Publisher=%s' % (software['name'], software['version'], software['publisher']))
 print('Number of installed apps: %s' % len(software_list))
+
+shaonutil.file.write_file('listout.txt','\n'.join(lines))
+shaonutil.file.remove_duplicateLines_from_file('listout.txt')
