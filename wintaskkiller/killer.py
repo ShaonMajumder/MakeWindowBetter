@@ -44,9 +44,11 @@ def list_process(sort='name'):
         processes = [processes_name[process_name] for process_name in process_strings]
 
         
-        
+    file_ = open('running_list.txt','w+')
     for process in processes:
         print(process.ProcessId, process.Name)
+        file_.write(f'{process.ProcessId} {process.Name}\n')
+
         #process.__dict__
         """
 
@@ -91,9 +93,14 @@ def list_process(sort='name'):
             WriteTransferCount = "0";
         };
         """
+    file_.close()
 
 def dump(obj):
     for attr in dir(obj):
         print("obj.%s = %r" % (attr, getattr(obj, attr)))
 
+def idle_mode():
+    kill_running_app_list = ['kited.exe','sublime_text.exe','AoE2DE_s.exe','BattleServer.exe','conhost.exe','python.exe']
+
 list_process()
+killProcess_ByAll("chromedriver.exe")

@@ -1,0 +1,29 @@
+{
+   "XAMPP" : {
+      "id": "01",
+      "versin": "7.4.3",
+      "category": "development",
+      "type": "package",
+      "package_softs": "php,mysql,filezila",
+      "download_page": "https://www.apachefriends.org/download.html",
+      "download_link": "https://www.apachefriends.org/xampp-files/7.4.3/xampp-windows-x64-7.4.3-0-VC15-installer.exe",
+      "features": "ftp,http,backend,database",
+      "features_installed": "Apache,MySQL,FileZilla FTP Server,PHP7.4.3,phpMyAdmin",
+      "description": ""
+   },
+
+   "python" : {
+      "id": "02",
+      "versin": "3.8.1",
+      "category": "development,programming",
+      "type": "package",
+      "package_softs": "upgradable",
+      "download_page": "https://www.python.org/downloads",
+      "download_link": "https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe",
+      "features": "programming",
+      "features_installed": "Documentation,pip,tcl/tk and IDLE,Python test suite,py launcher,for all users(requires elevation)",
+      "description": ""
+   },
+
+
+}

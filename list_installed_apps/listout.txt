@@ -1,76 +1,76 @@
-Name=Canon LBP6030 6040 6018L XPS Uninstaller, Version=1, 9, 0, 0, Publisher=Canon Inc.
-Name=Dolby Digital Plus Home Theater, Version=7.6.5.1, Publisher=Dolby Laboratories Inc
-Name=Python 3.8.1 Development Libraries (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
-Name=Python 3.8.1 pip Bootstrap (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
-Name=Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005, Version=12.0.21005, Publisher=Microsoft Corporation
-Name=Update for Windows 10 for x64-based Systems (KB4480730), Version=2.53.0.0, Publisher=Microsoft Corporation
-Name=AMD Catalyst Install Manager, Version=8.0.916.0, Publisher=Advanced Micro Devices, Inc.
-Name=Catalyst Control Center Next Localization ES, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Microsoft Visual C++ 2017 x64 Minimum Runtime - 14.15.26706, Version=14.15.26706, Publisher=Microsoft Corporation
-Name=Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030, Version=11.0.61030, Publisher=Microsoft Corporation
+Name=Python Launcher, Version=3.8.6925.0, Publisher=Python Software Foundation
 Name=Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.24123, Version=14.0.24123.0, Publisher=Microsoft Corporation
-Name=Python 3.8.1 Add to Path (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
-Name=Catalyst Control Center Next Localization SV, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Google Chrome, Version=80.0.3987.87, Publisher=Google LLC
-Name=Catalyst Control Center Next Localization FR, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=UpdateAssistant, Version=1.24.0.0, Publisher=Microsoft Corporation
-Name=Win32DiskImager version 1.0.0, Version=1.0.0, Publisher=ImageWriter Developers
-Name=Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005, Version=12.0.21005, Publisher=Microsoft Corporation
-Name=Catalyst Control Center Next Localization PL, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Python 3.8.1 Core Interpreter (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
-Name=Catalyst Control Center Next Localization BR, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Catalyst Control Center Next Localization KO, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Microsoft Visual C++ 2017 x64 Additional Runtime - 14.15.26706, Version=14.15.26706, Publisher=Microsoft Corporation
-Name=Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501, Version=12.0.30501.0, Publisher=Microsoft Corporation
-Name=Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.50727, Version=11.0.50727, Publisher=Microsoft Corporation
-Name=Xtreme Download Manager 2018, Version=7.2.7, Publisher=subhra Das Gupta
-Name=Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.50727, Version=11.0.50727, Publisher=Microsoft Corporation
+Name=Git version 2.25.0, Version=2.25.0, Publisher=The Git Development Community
+Name=Catalyst Control Center Next Localization NL, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Catalyst Control Center Next Localization NO, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
 Name=Catalyst Control Center Next Localization CHS, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Catalyst Control Center Next Localization IT, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Python 3.8.1 Executables (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
+Name=Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.50727, Version=11.0.50727.1, Publisher=Microsoft Corporation
+Name=Mozilla Maintenance Service, Version=72.0.2, Publisher=Mozilla
+Name=7-Zip 19.00 (x64), Version=19.00, Publisher=Igor Pavlov
+Name=qBittorrent 4.2.1, Version=4.2.1, Publisher=The qBittorrent project
+Name=Microsoft Visual C++ 2017 x64 Additional Runtime - 14.15.26706, Version=14.15.26706, Publisher=Microsoft Corporation
+Name=Microsoft Visual C++ 2015 x86 Additional Runtime - 14.0.24123, Version=14.0.24123, Publisher=Microsoft Corporation
+Name=Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005, Version=12.0.21005, Publisher=Microsoft Corporation
+Name=Catalyst Control Center Next Localization DE, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Age of Empires II Definitive Ed. Build 34055, Version=undefined, Publisher=HOODLUM
+Name=Update for Windows 10 for x64-based Systems (KB4480730), Version=2.53.0.0, Publisher=Microsoft Corporation
+Name=Mozilla Firefox 73.0.1 (x64 en-US), Version=73.0.1, Publisher=Mozilla
+Name=Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005, Version=12.0.21005, Publisher=Microsoft Corporation
+Name=Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005, Version=12.0.21005, Publisher=Microsoft Corporation
+Name=Catalyst Control Center Next Localization EL, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Sublime Text 3, Version=undefined, Publisher=Sublime HQ Pty Ltd
+Name=Catalyst Control Center Next Localization ES, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Python 3.8.1 Utility Scripts (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
+Name=VLC media player, Version=3.0.8, Publisher=VideoLAN
+Name=AMD Settings, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
 Name=Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005, Version=12.0.21005, Publisher=Microsoft Corporation
+Name=Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.50727, Version=11.0.50727.1, Publisher=Microsoft Corporation
+Name=Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030, Version=11.0.61030.0, Publisher=Microsoft Corporation
+Name=Win32DiskImager version 1.0.0, Version=1.0.0, Publisher=ImageWriter Developers
+Name=Python 3.8.1 Executables (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
+Name=Google Update Helper, Version=1.3.35.441, Publisher=Google LLC
+Name=AMD Start Now, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Catalyst Control Center Next Localization IT, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.50727, Version=11.0.50727, Publisher=Microsoft Corporation
+Name=Catalyst Control Center Next Localization FI, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Python 3.8.1 (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
+Name=Catalyst Control Center Next Localization CHT, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Python 3.8.1 Add to Path (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
+Name=Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501, Version=12.0.30501.0, Publisher=Microsoft Corporation
+Name=Python 3.8.1 Core Interpreter (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
+Name=Python 3.8.1 Development Libraries (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
+Name=Catalyst Control Center Next Localization FR, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Python 3.8.1 pip Bootstrap (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
+Name=Python 3.8.1 Tcl/Tk Support (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
+Name=Microsoft Visual C++ 2017 Redistributable (x64) - 14.15.26706, Version=14.15.26706.0, Publisher=Microsoft Corporation
+Name=Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.50727, Version=11.0.50727, Publisher=Microsoft Corporation
+Name=Google Chrome, Version=80.0.3987.87, Publisher=Google LLC
+Name=Synaptics Pointing Device Driver, Version=19.0.16.0, Publisher=Synaptics Incorporated
+Name=Catalyst Control Center Next Localization HU, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=AMD Catalyst Install Manager, Version=8.0.916.0, Publisher=Advanced Micro Devices, Inc.
+Name=Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.50727, Version=11.0.50727, Publisher=Microsoft Corporation
+Name=Catalyst Control Center Next Localization JA, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Catalyst Control Center Next Localization DA, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.50727, Version=11.0.50727, Publisher=Microsoft Corporation
+Name=Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030, Version=11.0.61030, Publisher=Microsoft Corporation
+Name=Catalyst Control Center Next Localization PL, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Microsoft Visual C++ 2015 x86 Minimum Runtime - 14.0.24123, Version=14.0.24123, Publisher=Microsoft Corporation
+Name=Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030, Version=11.0.61030, Publisher=Microsoft Corporation
+Name=Dolby Digital Plus Home Theater, Version=7.6.5.1, Publisher=Dolby Laboratories Inc
+Name=Lenovo EasyCamera, Version=6.3.9600.11105, Publisher=Realtek Semiconductor Corp.
 Name=Python 3.8.1 Standard Library (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
 Name=Catalyst Control Center Next Localization TH, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030, Version=11.0.61030.0, Publisher=Microsoft Corporation
-Name=Python 3.8.1 Tcl/Tk Support (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
-Name=Catalyst Control Center Next Localization CHT, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Catalyst Control Center Next Localization TR, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Mozilla Maintenance Service, Version=72.0.2, Publisher=Mozilla
-Name=Update for Windows 10 for x64-based Systems (KB4023057), Version=2.63.0.0, Publisher=Microsoft Corporation
-Name=Python 3.8.1 Test Suite (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
-Name=Mozilla Firefox 73.0.1 (x64 en-US), Version=73.0.1, Publisher=Mozilla
-Name=Catalyst Control Center Next Localization EL, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Age of Empires II Definitive Ed. Build 34055, Version=undefined, Publisher=HOODLUM
-Name=AMD Settings, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Synaptics Pointing Device Driver, Version=19.0.16.0, Publisher=Synaptics Incorporated
-Name=Catalyst Control Center Next Localization RU, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Microsoft Visual C++ 2017 Redistributable (x64) - 14.15.26706, Version=14.15.26706.0, Publisher=Microsoft Corporation
-Name=Git version 2.25.0, Version=2.25.0, Publisher=The Git Development Community
+Name=Catalyst Control Center Next Localization BR, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Canon LBP6030 6040 6018L XPS Uninstaller, Version=1, 9, 0, 0, Publisher=Canon Inc.
 Name=Catalyst Control Center Next Localization CS, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.50727, Version=11.0.50727.1, Publisher=Microsoft Corporation
-Name=Catalyst Control Center Next Localization NL, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005, Version=12.0.21005, Publisher=Microsoft Corporation
-Name=Catalyst Control Center Next Localization JA, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Catalyst Control Center Next Localization HU, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=qBittorrent 4.2.1, Version=4.2.1, Publisher=The qBittorrent project
-Name=Lenovo EasyCamera, Version=6.3.9600.11105, Publisher=Realtek Semiconductor Corp.
-Name=Python 3.8.1 (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
-Name=VLC media player, Version=3.0.8, Publisher=VideoLAN
-Name=Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.50727, Version=11.0.50727.1, Publisher=Microsoft Corporation
-Name=Python Launcher, Version=3.8.6925.0, Publisher=Python Software Foundation
+Name=Python 3.8.1 Test Suite (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
+Name=Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501, Version=12.0.30501.0, Publisher=Microsoft Corporation
+Name=Xtreme Download Manager 2018, Version=7.2.7, Publisher=subhra Das Gupta
+Name=Catalyst Control Center Next Localization KO, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Catalyst Control Center Next Localization RU, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=UpdateAssistant, Version=1.24.0.0, Publisher=Microsoft Corporation
+Name=Catalyst Control Center Next Localization SV, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Catalyst Control Center Next Localization TR, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
+Name=Update for Windows 10 for x64-based Systems (KB4023057), Version=2.63.0.0, Publisher=Microsoft Corporation
 Name=Python 3.8.1 Documentation (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
-Name=7-Zip 19.00 (x64), Version=19.00, Publisher=Igor Pavlov
-Name=Python 3.8.1 Utility Scripts (32-bit), Version=3.8.1150.0, Publisher=Python Software Foundation
-Name=AMD Start Now, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Catalyst Control Center Next Localization NO, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Catalyst Control Center Next Localization DE, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Microsoft Visual C++ 2015 x86 Minimum Runtime - 14.0.24123, Version=14.0.24123, Publisher=Microsoft Corporation
-Name=Sublime Text 3, Version=undefined, Publisher=Sublime HQ Pty Ltd
-Name=Catalyst Control Center Next Localization DA, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Catalyst Control Center Next Localization FI, Version=2016.0628.2138.37120, Publisher=Advanced Micro Devices, Inc.
-Name=Microsoft Visual C++ 2015 x86 Additional Runtime - 14.0.24123, Version=14.0.24123, Publisher=Microsoft Corporation
-Name=Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.50727, Version=11.0.50727, Publisher=Microsoft Corporation
-Name=Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030, Version=11.0.61030, Publisher=Microsoft Corporation
-Name=Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501, Version=12.0.30501.0, Publisher=Microsoft Corporation
-Name=Google Update Helper, Version=1.3.35.441, Publisher=Google LLC
-Name=Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.50727, Version=11.0.50727, Publisher=Microsoft Corporation
+Name=Microsoft Visual C++ 2017 x64 Minimum Runtime - 14.15.26706, Version=14.15.26706, Publisher=Microsoft Corporation
